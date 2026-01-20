@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Retro Photobooth Strip</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>📸 Retro Photobooth</h1>
+  <p>3 shots • 1 strip</p>
+</header>
+
+<main>
+
+  <div class="camera-box">
+    <video id="video" muted autoplay playsinline></video>
+  </div>
+
+  <div class="controls">
+    <button id="startBtn">Start Camera</button>
+    <button id="captureBtn">Capture</button>
+  </div>
+
+  <div class="filters">
+    <button data-filter="none">Clear</button>
+    <button data-filter="vintage">Vintage</button>
+    <button data-filter="bw">B&W</button>
+    <button data-filter="warm">Warm</button>
+  </div>
+
+  <div class="strip-wrapper">
+    <div id="strip" class="strip"></div>
+  </div>
+
+  <button id="downloadBtn">Download Strip</button>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
+

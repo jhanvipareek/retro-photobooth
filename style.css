@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background: #efe5d8;
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+  color: #3a2e2a;
+}
+
+header {
+  padding: 20px;
+}
+
+header h1 {
+  font-family: 'Special Elite', cursive;
+}
+
+.camera-box {
+  width: 320px;
+  margin: 20px auto;
+  background: white;
+  padding: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+video {
+  width: 100%;
+  background: black;
+}
+
+.controls, .filters {
+  margin: 15px 0;
+}
+
+button {
+  margin: 6px;
+  padding: 10px 14px;
+  font-family: 'Special Elite', cursive;
+  background: #d8b98a;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #7c5a3a;
+}
+
+.strip-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.strip {
+  width: 180px;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.strip img {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#downloadBtn {
+  margin: 25px auto;
+}
